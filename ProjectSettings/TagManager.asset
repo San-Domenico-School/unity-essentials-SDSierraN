@@ -8,6 +8,8 @@ TagManager:
   - Cave
   - Water
   - Grass
+  - Endpoint
+  - Roadblock
   layers:
   - Default
   - TransparentFX
