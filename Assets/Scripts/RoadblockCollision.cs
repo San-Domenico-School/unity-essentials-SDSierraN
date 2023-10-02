@@ -10,13 +10,15 @@ public class RoadblockCollision : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Roadblock"))
         {
-            // Disable player movement (if applicable).
+            // lock movement
             // You may need to add more logic here depending on your player setup.
 
             // Show the game over screen.
             gameOverScreen.SetActive(true);
 
             Application.Quit();
+
+
         }
     }
 }
